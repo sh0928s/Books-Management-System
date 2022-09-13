@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>1.9.18</version>
+            <version>1.9.98</version>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
@@ -67,7 +67,7 @@
                 <configuration>
                     <archiveClasses>true</archiveClasses>
                     <webResources>
-                        &lt;!&ndash; in order to interpolate version from pom into appengine-web.xml &ndash;&gt;
+                        &lt;!&amp;ndash; in order to interpolate version from pom into appengine-web.xml &amp;ndash;>
                         <resource>
                             <directory>${basedir}/src/main/webapp/WEB-INF</directory>
                             <filtering>true</filtering>
