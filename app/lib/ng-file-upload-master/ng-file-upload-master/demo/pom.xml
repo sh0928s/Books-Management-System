@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-endpoints</artifactId>
-            <version>1.9.18</version>
+            <version>1.9.86</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -67,7 +67,7 @@
                 <configuration>
                     <archiveClasses>true</archiveClasses>
                     <webResources>
-                        &lt;!&ndash; in order to interpolate version from pom into appengine-web.xml &ndash;&gt;
+                        &lt;!&amp;ndash; in order to interpolate version from pom into appengine-web.xml &amp;ndash;>
                         <resource>
                             <directory>${basedir}/src/main/webapp/WEB-INF</directory>
                             <filtering>true</filtering>
